@@ -1,0 +1,39 @@
+3.1 Em um determinado programa são necessárias variáveis de diferentes tipos para
+armazenar diferentes informações. Em cada caso a seguir informe qual tipo de dado
+primitivo seria mais adequado para o armazenamento. Informe também qual o tipo
+do Python correspondente:
+a) Idade de uma pessoa;
+inteiro - int
+b) Se a pessoa é maior de idade ou não;
+condicional -  if e else
+c) Altura de uma pessoa;
+flutuante - float
+d) Peso de uma pessoa;
+flutuante - float
+e) Primeira letra do nome de uma pessoa;
+caractere -char
+f) Última letra do nome de uma pessoa.
+caractere - char
+
+
+3.2 Considere as variáveis: a = 1; b = 2; c = ’1’; d = ’2’. Utilizando o operador"+"observe a diferença entre somar a + b e somar c + d. Qual a diferença e por que isso
+ocorre?
+As variáveis a e b são interpretadas como inteiros e nesse caso a operação a+b soma as variáveis resultando em 3. No caso das variáveis c e d , elas são interpretadas como strings e nesse caso c+d concatena os dois valores resultando em 12.
+
+3.3 Ainda considerando as variáveis da questão anterior, o que poderia se fazer para que
+a + b tenha o mesmo resultado de c + d ou vice versa?
+No caso de a+b seria necessário converter os dois valores para uma string para sua soma concatenasse. No caso de c+d deveria-se converter os valor para o tipo inteiro.
+
+3.4 Em cada item a seguir diga se pode ser um nome de variável. Em caso negativo,
+informe o motivo:
+a) x; sim
+b) aux; sim
+c) 1aluno; não pois começa com número
+d) aluno1; sim
+e) aluno_1;sim
+f) aluno 1;não ,há um espaço entre o nome da variável
+g) _aluno1; sim
+h) int;não , é uma palavra reservata da linguagem
+i) Int;sim
+j) int_idade;sim
+k) class.não, é uma palavra reservada da linguagem
