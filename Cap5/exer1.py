@@ -16,20 +16,27 @@ if notas >= 100:
     r10 = r50 % 10
     resto1 = int(r10 / 1)
     print('Notas de 1 : ',resto1)
-elif  notas >= 50 and notas < 100:
+
+if  notas >= 50 and notas < 100:
     resto50 = int(notas / 50)
     print('Notas de 50 : ',resto50)
-    r50 = r100 % 50
+    r50 = notas % 50
     resto10 = int(r50 / 10)
     print('Notas de 10 :',resto10)
     r10 = r50 % 10
     resto1 = int(r10 / 1)
     print('Notas de 1 : ',resto1)
    
-#elif r50 > 10 and r50 < 50:
+if notas >= 10 and notas < 50:
+    resto10 = int(notas / 10)
+    print('Notas de 10 :',resto10)
+    r10 = notas % 10
+    resto1 = int(r10 / 1)
+    print('Notas de 1 : ',resto1)
    
-#elif r10 > 0 and r10 < 10:
-   
+if notas > 0 and notas < 10:
+    resto1 = int(notas / 1)
+    print('Notas de 1 : ',resto1)
 
 
 
